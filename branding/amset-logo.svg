@@ -1,0 +1,47 @@
+<svg width="640" height="220" viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="12" x2="208" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111b30"/>
+      <stop offset="1" stop-color="#07101d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="56" y1="101" x2="160" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6c453"/>
+      <stop offset="0.5" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="copy" x1="236" y1="48" x2="594" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff6cf"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <filter id="glow" x="32" y="38" width="120" height="126" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="196" height="196" rx="44" fill="url(#bg)"/>
+  <rect x="14" y="14" width="192" height="192" rx="42" stroke="#ffffff" stroke-opacity=".12"/>
+  <path d="M36 50H184" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M50 36V184" stroke="#ffffff" stroke-opacity=".06" stroke-width="2"/>
+
+  <g filter="url(#glow)">
+    <path d="M68 152L104 74L140 152" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M82 124H126" stroke="#f8fafc" stroke-width="12" stroke-linecap="round"/>
+  <path d="M148 68V154" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round"/>
+  <path d="M106 90H172" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+  <path d="M106 122H164" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" opacity=".58"/>
+
+  <circle cx="104" cy="74" r="9" fill="#f6c453"/>
+  <circle cx="68" cy="152" r="9" fill="#7dd3fc"/>
+  <circle cx="140" cy="152" r="9" fill="#7dd3fc"/>
+  <circle cx="148" cy="68" r="9" fill="#f8fafc"/>
+  <circle cx="172" cy="90" r="8" fill="#f6c453"/>
+  <circle cx="164" cy="122" r="8" fill="#38bdf8"/>
+  <circle cx="148" cy="154" r="9" fill="#f8fafc"/>
+
+  <text x="236" y="104" fill="url(#copy)" font-size="76" font-weight="800" letter-spacing="8" font-family="system-ui, sans-serif">AMSET</text>
+  <text x="236" y="150" fill="#f6c453" font-size="18" font-weight="700" letter-spacing="4" font-family="system-ui, sans-serif">ASSEMBLING MINED SIGN FOR ENSEMBLE TIMELINES</text>
+  <text x="236" y="190" fill="#d6deef" font-size="24" font-weight="500" letter-spacing="1.2" font-family="system-ui, sans-serif">Multi-actor timeline learning system</text>
+</svg>

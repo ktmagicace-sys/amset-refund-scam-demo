@@ -1,0 +1,43 @@
+{
+  "projectId": "refund-scam-experiment-c-silhouette",
+  "enabled": true,
+  "fallback": "css-connection-preview",
+  "connections": [
+    {
+      "id": "city-004-005",
+      "fromCardId": "refund-c-004-silhouette",
+      "toCardId": "refund-c-005-silhouette",
+      "file": "city-004-005.mp4"
+    },
+    {
+      "id": "city-005-006",
+      "fromCardId": "refund-c-005-silhouette",
+      "toCardId": "refund-c-006-silhouette",
+      "file": "city-005-006.mp4"
+    },
+    {
+      "id": "victim-001-002",
+      "fromCardId": "refund-c-001-silhouette",
+      "toCardId": "refund-c-002-silhouette",
+      "file": "victim-001-002.mp4"
+    },
+    {
+      "id": "victim-002-003",
+      "fromCardId": "refund-c-002-silhouette",
+      "toCardId": "refund-c-003-silhouette",
+      "file": "victim-002-003.mp4"
+    },
+    {
+      "id": "pension-007-008",
+      "fromCardId": "refund-c-007-silhouette",
+      "toCardId": "refund-c-008-silhouette",
+      "file": "pension-007-008.mp4"
+    },
+    {
+      "id": "pension-008-009",
+      "fromCardId": "refund-c-008-silhouette",
+      "toCardId": "refund-c-009-silhouette",
+      "file": "pension-008-009.mp4"
+    }
+  ]
+}
